@@ -5,11 +5,11 @@ import time
 from openpyxl import load_workbook
 from regex import P, R
 
-# "path" is the data of LA from 2017-2022
+# path is the data of LA from 2017-2022
 path = "Excels\\LAweather.xlsx"
-# "path1" has the data of LA weather from (2022 January 1 - today)
+# path1 has the data of LA weather from (2022 January 1 - today)
 path1 ="Excels\\LApredict.xlsx"
-# "path2" is the future predicted data
+# path2 is the future predicted data
 path2 = ("Excels\\LAfuture.xlsx")
 
 wb = load_workbook(path)
@@ -162,7 +162,7 @@ def weatherForecast(days):
         
 
 # # We forecast the weather for 143 day, to compare historical data from 2022 January 1 to today, to the data we predicted
-# weatherForecast(144)
+# weatherForecast(143)
 
 ## We forcast weather for the upcoming 5 years(1828 days)
 weatherForecast(1828)
