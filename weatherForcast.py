@@ -6,11 +6,11 @@ from openpyxl import load_workbook
 from regex import P, R
 
 # "path" is the data of LA from 2017-2022
-path = "C:\\Users\\ktiki\\Desktop\\LAweather.xlsx"
+path = "Excels\\LAweather.xlsx"
 # "path1" has the data of LA weather from (2022 January 1 - today)
-path1 ="C:\\Users\\ktiki\\Desktop\\LApredict.xlsx"
+path1 ="Excels\\LApredict.xlsx"
 # "path2" is the future predicted data
-path2 = ("C:\\Users\\ktiki\\Desktop\\LAfuture.xlsx")
+path2 = ("Excels\\LAfuture.xlsx")
 
 wb = load_workbook(path)
 wb1 = load_workbook(path1)
